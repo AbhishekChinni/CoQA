@@ -20,7 +20,8 @@ Seq2Seq model:
 -  Dev set: ./seq2seq_dev_predict.sh
 - Test set: ./seq2seq_test_predict.sh
 
-Top 50 worst F1 matches: (story_id, turn_id, predicted_ans, gold_ans)
+## Error Analysis:
+Worst 50 F1 matches: (story_id, turn_id, predicted_ans, gold_ans)
 
 - 1 (('3a4tn5196kisae3e88uoqj60g17chl', 10, 'october', 'Microsoft Word is a word processor developed by Microsoft. It was first released on October 25, 1983 under the name "Multi-Tool Word" for Xenix systems. Subsequent versions were later written for several other platforms including IBM PCs running DOS (1983), Apple Macintosh running Classic Mac OS (1985), AT&T Unix PC (1985), Atari ST (1988), OS/2 (1989), Microsoft Windows (1989), SCO Unix (1994), and macOS (2001). Commercial versions of Word are licensed as a standalone product or as a component of Microsoft Office, Windows RT or the discontinued Microsoft Works suite. Microsoft Word Viewer and Office Online are freeware editions of Word with limited features.'), 0.02)
 - 2 (('3ffj6vril1o8chji2ajpvu5e7ko0iy', 6, 'he would make himself cry in less than a second .', 'He went over to Pipo, took off his hat, put it face-up on the ground, and started crying'), 0.07692307692307691)
